@@ -1,8 +1,9 @@
 import GetInTouch from '@/components/something-new'
-import CoreValues from '@/features/components/CoreValues'
-import Hero from '@/features/components/Hero'
-import MeetTheTeam from '@/features/components/MeetTheTeam'
+
 import React from 'react'
+import Hero from '../components/Hero'
+import MeetTheTeam from '../components/MeetTheTeam'
+import CoreValues from '../components/CoreValues'
 
 const About = () => {
   return (

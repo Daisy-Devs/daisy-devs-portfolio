@@ -1,6 +1,6 @@
 import React from "react";
-import Riya from "../../../public/images/RiyaVechiot.jpg";
-import Pranita from "../../../public/images/PranitaR.jpeg";
+import Riya from "../../../../public/images/RiyaVechiot.jpg";
+import Pranita from "../../../../public/images/PranitaR.jpeg";
 import Image from "next/image";
 
 const MeetTheTeam = () => {
@@ -11,7 +11,7 @@ const MeetTheTeam = () => {
           <h2 className="font-bricolage-grotesque text-5xl font-extrabold text-on-primary-container mb-4">
             Meet the Bloomers
           </h2>
-          <p className="font-body-md text-body-md text-on-primary-container/80">
+          <p className="font-nunito-sans  text-on-primary-container/80">
             The creative minds behind the craft.
           </p>
         </div>
@@ -31,11 +31,11 @@ const MeetTheTeam = () => {
               <h3 className="font-bricolage-grotesque text-3xl text-primary mb-1">
                 Riya Vechiot
               </h3>
-              <p className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-4">
+              <p className="font-geist-sans text-label-md text-secondary uppercase tracking-widest mb-4">
                 {" "}
                 Mobile App Developer
               </p>
-              <p className="font-body-md text-body-md text-on-surface-variant">
+              <p className="font-nunito-sans  text-on-surface-variant">
                 &quot;Fueled by good music, homemade meals, and the unhinged desire to make every button satisfyingly clickable 😬.&quot;
               </p>
             </div>
@@ -55,10 +55,10 @@ const MeetTheTeam = () => {
               <h3 className="font-bricolage-grotesque text-3xl text-primary mb-1">
                 Pranita R.
               </h3>
-              <p className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-4">
+              <p className="font-geist-sans text-label-md text-secondary uppercase tracking-widest mb-4">
                 Backend & Blockchain Developer
               </p>
-              <p className="font-body-md text-body-md text-on-surface-variant">
+              <p className="font-nunito-sans  text-on-surface-variant">
                 &quot;Prefers writing clean logic over sleeping. Owns too many
                 succulents.&quot;
               </p>
@@ -78,10 +78,10 @@ const MeetTheTeam = () => {
               <h3 className="font-bricolage-grotesque text-3xl text-primary mb-1">
                 Suchita Ganati
               </h3>
-              <p className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-4">
+              <p className="font-geist-sans text-label-md text-secondary uppercase tracking-widest mb-4">
                 Web App Developer
               </p>
-              <p className="font-body-md text-body-md text-on-surface-variant">
+              <p className="font-nunito-sans  text-on-surface-variant">
                 &quot;Prefers writing clean logic over sleeping. Owns too many
                 succulents.&quot;
               </p>

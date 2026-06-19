@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="absolute top-10 -right-5 opacity-90 animate-pulse duration-175">
         <img src={"./svg/circle2.svg"} alt="Green circle" />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
         <div className="md:col-span-8">
           <h1 className="font-bricolage-grotesque font-extrabold text-6xl mb-6">
             We don&apos;t just build code.

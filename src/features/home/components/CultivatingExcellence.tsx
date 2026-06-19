@@ -9,7 +9,7 @@ const CultivatingExcellence = () => {
         <h2 className="font-bricolage-grotesque text-5xl font-bold text-on-surface mb-4">
           Cultivating Excellence
         </h2>
-        <p className="font-body-lg text-xl text-on-surface-variant max-w-xl">
+        <p className="font-nunito-sans text-xl text-on-surface-variant max-w-xl">
           We don&apos;t just write code; we nurture your digital presence with
           care, craft, and precision.
         </p>
@@ -25,19 +25,19 @@ const CultivatingExcellence = () => {
             <h3 className="text-2xl font-bricolage-grotesque mb-4">
               Web Development
             </h3>
-            <p className="font-body-md text-body-md text-on-surface-variant max-w-md">
+            <p className="font-nunito-sans  text-on-surface-variant max-w-md">
               Scalable architectures built with modern frameworks like Next.js
               and React, optimized for speed and longevity.
             </p>
           </div>
           <div className="flex flex-wrap gap-2 mt-8">
-            <span className="bg-tertiary-container px-3 py-1 rounded text-label-sm font-label-sm border border-on-surface">
+            <span className="bg-tertiary-container px-3 py-1 rounded text-xs font-geist-sans border border-on-surface">
               PERFORMANCE
             </span>
-            <span className="bg-tertiary-container px-3 py-1 rounded text-label-sm font-label-sm border border-on-surface">
+            <span className="bg-tertiary-container px-3 py-1 rounded text-xs font-geist-sans border border-on-surface">
               ACCESSIBILITY
             </span>
-            <span className="bg-tertiary-container px-3 py-1 rounded text-label-sm font-label-sm border border-on-surface">
+            <span className="bg-tertiary-container px-3 py-1 rounded text-xs font-geist-sans border border-on-surface">
               SEO
             </span>
           </div>
@@ -49,7 +49,7 @@ const CultivatingExcellence = () => {
           </div>
           <div>
             <h3 className="text-2xl font-bricolage-grotesque mb-2">Mobile App Development</h3>
-            <p className="font-body-md text-body-md text-on-surface-variant">
+            <p className="font-nunito-sans  text-on-surface-variant">
               Transform your ideas into powerful mobile apps with our expert development services. We build fast, secure, and user-friendly applications tailored to your business needs and goals.
             </p>
           </div>
@@ -61,7 +61,7 @@ const CultivatingExcellence = () => {
           </div>
           <div>
             <h3 className="text-2xl font-bricolage-grotesque mb-2">Scalable Backend & Crypto Solutions</h3>
-            <p className="font-body-md text-body-md text-on-surface-variant">
+            <p className="font-nunito-sans  text-on-surface-variant">
               Our backend development services deliver robust architectures, cloud infrastructure, and seamless API integrations to support business growth. We also develop blockchain and cryptocurrency solutions, enabling secure transactions, smart contract automation, and next-generation Web3 experiences.
             </p>
           </div>
@@ -80,7 +80,7 @@ const CultivatingExcellence = () => {
             <h3 className="text-2xl font-bricolage-grotesque mb-4">
               Dedicated Support
             </h3>
-            <p className="font-body-md text-body-md text-on-secondary-fixed-variant">
+            <p className="font-nunito-sans  text-on-secondary-fixed-variant">
               We provide ongoing care for your digital garden, ensuring
               everything stays green and healthy.
             </p>

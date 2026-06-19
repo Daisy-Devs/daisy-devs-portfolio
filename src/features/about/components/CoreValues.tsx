@@ -11,7 +11,7 @@ const CoreValues = () => {
           <h4 className="font-bricolage-grotesque text-primary text-3xl">
             Meticulous Craft
           </h4>
-          <p className="font-body-md text-body-md text-on-surface-variant">
+          <p className="font-nunito-sans  text-on-surface-variant">
             Every line of code is hand-polished. We don&apos;t do &apos;good
             enough&apos;—we do &apos;blooming marvellous&apos;.
           </p>
@@ -21,7 +21,7 @@ const CoreValues = () => {
             <img src={"./svg/one-leaf.svg"} alt="leaf" />
           </div>
           <h4 className="font-bricolage-grotesque text-primary text-3xl">Organic Growth</h4>
-          <p className="font-body-md text-body-md text-on-surface-variant">
+          <p className="font-nunito-sans  text-on-surface-variant">
             We build systems that scale naturally, evolving with your business
             needs without breaking.
           </p>
@@ -31,7 +31,7 @@ const CoreValues = () => {
             <img src={"./svg/sparkle.svg"} alt="sparkle" />
           </div>
           <h4 className="font-bricolage-grotesque text-primary text-3xl">Playful Intent</h4>
-          <p className="font-body-md text-body-md text-on-surface-variant">
+          <p className="font-nunito-sans  text-on-surface-variant">
             Professionalism doesn&apos;t have to be boring. We inject
             personality into every interaction.
           </p>
