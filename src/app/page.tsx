@@ -1,5 +1,7 @@
-export default function Home() {
+import Home from "@/features/home/screens/Home";
+
+export default function HomeScreen() {
   return (
-  <div></div>
+  <Home/>
   );
 }
