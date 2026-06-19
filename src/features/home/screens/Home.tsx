@@ -6,13 +6,13 @@ import Testimonials from '../components/Testimonials'
 
 const Home = () => {
   return (
-    <div>
+    <main>
         <Hero/>
         <Marquee/>
         <CultivatingExcellence/>
         <Testimonials/>
         <GetInTouch/>
-    </div>
+    </main>
   )
 }
 

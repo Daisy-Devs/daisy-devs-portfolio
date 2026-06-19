@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-tertiary-container mt-0 dark:bg-on-tertiary-fixed-variant w-full  mt-section-gap">
-      <div className="flex flex-col items-center text-center w-full px-margin-desktop rounded-t-[120px] py-section-gap max-w-container-max mx-auto">
+    <footer className="bg-tertiary-container mt-0 dark:bg-on-tertiary-fixed-variant w-full  mt-30">
+      <div className="flex flex-col items-center text-center w-full px-margin-desktop rounded-t-[120px] py-30 max-w-container-max mx-auto">
         <div className="font-bricolage-grotesque mt-5 text-6xl text-on-tertiary-container dark:text-tertiary-fixed opacity-10 mb-8">
         🌼  Daisy Devs 🌼
         </div>

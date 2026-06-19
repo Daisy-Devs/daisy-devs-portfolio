@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
 import { Button } from "./ui/button";
 import DaisyIcon from "./daisy-icon";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 const navLink =
   "text-sm font-geist-sans text-on-surface-variant hover:text-secondary transition-colors duration-200";
@@ -9,6 +12,7 @@ const activeNavLink =
   "text-sm font-geist-sans text-secondary font-bold border-b-2 border-dashed border-secondary";
 
 const Navbar = () => {
+  const path =usePathname()
   return (
     <nav
       aria-label="Main navigation"
@@ -26,19 +30,19 @@ const Navbar = () => {
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
-          <a href="#" className={activeNavLink}>
+          <Link href="/" className={path=="/"?activeNavLink:navLink}>
             Home
-          </a>
+          </Link>
 
-          <a href="#" className={navLink}>
+          <a href="/projects" className={path=="/projects"?activeNavLink:navLink}>
             Projects
           </a>
 
-          <a href="#" className={navLink}>
+          <a href="/about" className={path=="/about"?activeNavLink:navLink}>
             About
           </a>
 
-          <a href="#" className={navLink}>
+          <a href="/pricing" className={path=="/pricing"?activeNavLink:navLink}>
             Pricing
           </a>
         </div>

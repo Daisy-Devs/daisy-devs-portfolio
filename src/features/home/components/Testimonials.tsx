@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
    <div className="py-24 bg-surface-container-low relative overflow-hidden mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
 <div className="text-center mb-16">
-<h2 className="font-bricolage-grotesque text-4xl text-on-surface mb-4">Voices from the Garden</h2>
+<h2 className="font-bricolage-grotesque text-4xl font-bold text-on-surface mb-4">Voices from the Garden</h2>
 <p className="font-nunito-sans text-4xl text-on-surface-variant">How we&apos;ve helped our clients bloom.</p>
 </div>
 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

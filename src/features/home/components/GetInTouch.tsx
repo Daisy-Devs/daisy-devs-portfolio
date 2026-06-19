@@ -3,7 +3,7 @@ import React from "react";
 
 const GetInTouch = () => {
   return (
-    <section className="relative bg-secondary pt-32 pb-32 mt-section-gap overflow-hidden">
+    <section className="relative bg-secondary pt-32 pb-32 mt-30 overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-24 bg-surface petal-curve"></div>
       <div className="max-w-4xl mx-auto text-center px-margin-mobile text-on-primary">
         <h2 className="font-bricolage-grotesque text-4xl font-extrabold mb-8">
