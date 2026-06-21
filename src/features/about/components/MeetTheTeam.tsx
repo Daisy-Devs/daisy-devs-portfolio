@@ -1,6 +1,7 @@
 import React from "react";
 import Riya from "../../../../public/images/RiyaVechiot.jpg";
 import Pranita from "../../../../public/images/PranitaR.jpeg";
+import Suchita from "../../../../public/images/SuchitaGanati.jpeg";
 import Image from "next/image";
 
 const MeetTheTeam = () => {
@@ -36,7 +37,7 @@ const MeetTheTeam = () => {
                 Mobile App Developer
               </p>
               <p className="font-nunito-sans  text-on-surface-variant">
-                &quot;Fueled by good music, homemade meals, and the unhinged desire to make every button satisfyingly clickable 😬.&quot;
+                &quot;Good R&B on the speakers, something in the oven, and a habit of turning rough ideas into apps people actually enjoy using.&quot;
               </p>
             </div>
           </div>
@@ -59,8 +60,7 @@ const MeetTheTeam = () => {
                 Backend & Blockchain Developer
               </p>
               <p className="font-nunito-sans  text-on-surface-variant">
-                &quot;Prefers writing clean logic over sleeping. Owns too many
-                succulents.&quot;
+                &quot;Speaks mostly to her dogs, lets the smart contracts do the talking, and exists in peaceful, decentralized silence.&quot;
               </p>
             </div>
           </div>
@@ -69,10 +69,12 @@ const MeetTheTeam = () => {
               <div className="bg-blue-400/30 w-15 h-10 absolute -top-5 right-30 -rotate-3 group-hover:opacity-0"></div>
 
               <div className="w-full aspect-square rounded-lg mb-6 overflow-hidden">
-                <img
+                <Image
                   className="w-full h-full object-cover"
-                  alt="A portrait of a male lead developer with a friendly smile,"
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  width={500}
+                  height={500}
+                  alt="A portrait of a female lead developer with a friendly smile"
+                  src={Suchita}
                 />
               </div>
               <h3 className="font-bricolage-grotesque text-3xl text-primary mb-1">
@@ -82,8 +84,7 @@ const MeetTheTeam = () => {
                 Web App Developer
               </p>
               <p className="font-nunito-sans  text-on-surface-variant">
-                &quot;Prefers writing clean logic over sleeping. Owns too many
-                succulents.&quot;
+                &quot;Got a soft spot for K-dramas, fueled by seafood and an endless curiosity for new adventures.&quot;
               </p>
             </div>
           </div>

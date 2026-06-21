@@ -222,6 +222,11 @@
     animation: marquee 30s linear infinite;
   }
 
+  .hover-drop:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 10px 10px 0px #131b2e;
+        }
+
   @keyframes marquee {
     0% {
       transform: translateX(0);
