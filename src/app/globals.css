@@ -152,38 +152,38 @@
 
 .dark {
   --radius: 12px;
-  --surface: #faf8ff;
-  --surface-dim: #d2d9f4;
-  --surface-bright: #faf8ff;
-  --surface-container-lowest: #ffffff;
-  --surface-container-low: #f2f3ff;
-  --surface-container: #eaedff;
-  --surface-container-high: #e2e7ff;
-  --surface-container-highest: #dae2fd;
-  --on-surface: #131b2e;
-  --on-surface-variant: #4a473c;
-  --inverse-surface: #283044;
-  --inverse-on-surface: #eef0ff;
-  --outline: #7b776b;
-  --outline-variant: #ccc6b8;
-  --surface-tint: #665f3d;
-  --primary: #665f3d;
-  --on-primary: #ffffff;
-  --primary-container: #fef3c7;
-  --on-primary-container: #766f4b;
-  --inverse-primary: #d1c79d;
-  --secondary: #1f6c3a;
-  --on-secondary: #ffffff;
-  --secondary-container: #a4f1b2;
-  --on-secondary-container: #24703e;
-  --tertiary: #55615a;
-  --on-tertiary: #ffffff;
-  --tertiary-container: #e9f6ed;
-  --on-tertiary-container: #65716a;
-  --error: #ba1a1a;
-  --on-error: #ffffff;
-  --error-container: #ffdad6;
-  --on-error-container: #93000a;
+  --surface: #1a1c2b;
+  --surface-dim: #0f1120;
+  --surface-bright: #262838;
+  --surface-container-lowest: #0c0e1c;
+  --surface-container-low: #161828;
+  --surface-container: #1e2030;
+  --surface-container-high: #262838;
+  --surface-container-highest: #2e3040;
+  --on-surface: #dae2fd;
+  --on-surface-variant: #ccc6b8;
+  --inverse-surface: #dae2fd;
+  --inverse-on-surface: #283044;
+  --outline: #948f82;
+  --outline-variant: #4a473c;
+  --surface-tint: #d1c79d;
+  --primary: #d1c79d;
+  --on-primary: #35300f;
+  --primary-container: #4d4727;
+  --on-primary-container: #ede3b8;
+  --inverse-primary: #665f3d;
+  --secondary: #8bd79b;
+  --on-secondary: #00391a;
+  --secondary-container: #005226;
+  --on-secondary-container: #a6f4b5;
+  --tertiary: #bdcac1;
+  --on-tertiary: #283129;
+  --tertiary-container: #3e4943;
+  --on-tertiary-container: #d9e6dd;
+  --error: #ffb4ab;
+  --on-error: #690005;
+  --error-container: #93000a;
+  --on-error-container: #ffdad6;
   --primary-fixed: #ede3b8;
   --primary-fixed-dim: #d1c79d;
   --on-primary-fixed: #201c02;
@@ -196,11 +196,10 @@
   --tertiary-fixed-dim: #bdcac1;
   --on-tertiary-fixed: #131e19;
   --on-tertiary-fixed-variant: #3e4943;
-  --background: #faf8ff;
-  --on-background: #131b2e;
-  --surface-variant: #dae2fd;
+  --background: #1a1c2b;
+  --on-background: #dae2fd;
+  --surface-variant: #2e3040;
 }
-
 @layer base {
   * {
     @apply outline-ring/50;
