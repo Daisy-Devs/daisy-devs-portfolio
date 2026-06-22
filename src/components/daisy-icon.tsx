@@ -7,9 +7,6 @@ const DaisyIcon = (props: React.SVGProps<SVGSVGElement>) => (
     x="0px"
     y="0px"
     viewBox="0 0 30 30"
-    style={{
-      enableBackground: "new 0 0 512 512",
-    }}
     xmlSpace="preserve"
     width={30}
     height={30}
