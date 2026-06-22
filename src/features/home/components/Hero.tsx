@@ -21,9 +21,6 @@ const Hero = () => {
           width="390px"
           height="390px"
           viewBox="0 0 390 390"
-          style={{
-            enableBackground: "new 0 0 390 390",
-          }}
           xmlSpace="preserve"
         >
           <g>
