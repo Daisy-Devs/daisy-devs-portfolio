@@ -15,7 +15,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               Post-launch Support (30 days)
@@ -28,7 +28,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
             {PRICING[currency].pls}
           </div>
         </div>
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               Quarterly support
@@ -41,7 +41,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
             {PRICING[currency].quarterly}
           </div>
         </div>
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               Annual Maintenance
@@ -54,7 +54,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
              {PRICING[currency].amc}
           </div>
         </div>
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               AI Chatbot
@@ -67,7 +67,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
              {PRICING[currency].chatbot}
           </div>
         </div>
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               Platform Mobile App
@@ -80,7 +80,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
             {PRICING[currency].extraplatform}
           </div>
         </div>
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               Advanced SEO
@@ -93,7 +93,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
              {PRICING[currency].seo}
           </div>
         </div>
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               Loyalty &amp; Rewards
@@ -106,7 +106,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
             {PRICING[currency].loyalty}
           </div>
         </div>
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               App widget (mobile)
@@ -119,7 +119,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
              {PRICING[currency].widget}
           </div>
         </div>
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               Extra web page
@@ -132,7 +132,7 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
              {PRICING[currency].extrapage}
           </div>
         </div>
-        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-white hover:border-secondary transition-colors group">
+        <div className="p-5 border border-on-surface/20 rounded-2xl flex justify-between items-center bg-surface hover:border-secondary transition-colors group">
           <div>
             <div className="font-geist-sans text-on-surface group-hover:text-secondary transition-colors">
               Multi-language support

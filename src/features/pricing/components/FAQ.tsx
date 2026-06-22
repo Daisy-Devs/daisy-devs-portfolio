@@ -8,7 +8,7 @@ const FAQ = () => {
         Growing pains? We have answers.
       </h2>
       <div className="space-y-6">
-        <details className="group bg-white border border-on-background p-6 rounded-lg cursor-pointer transition-all hover:bg-surface-container-low">
+        <details className="group bg-surface border border-on-background p-6 rounded-lg cursor-pointer transition-all hover:bg-surface-container-low">
           <summary className="flex justify-between items-center font-geist-sans text-label-md list-none">
             <span className="">How long does a typical build take?</span>
             <ChevronDown className=" group-open:rotate-180 transition-transform"/>
@@ -19,7 +19,7 @@ const FAQ = () => {
             season.
           </p>
         </details>
-        <details className="group bg-white border border-on-background p-6 rounded-lg cursor-pointer transition-all hover:bg-surface-container-low">
+        <details className="group bg-surface border border-on-background p-6 rounded-lg cursor-pointer transition-all hover:bg-surface-container-low">
           <summary className="flex justify-between items-center font-geist-sans text-label-md list-none">
             <span className="">Do you offer maintenance?</span>
             <ChevronDown className=" group-open:rotate-180 transition-transform"/>
@@ -30,7 +30,7 @@ const FAQ = () => {
             year-round.
           </p>
         </details>
-        <details className="group bg-white border border-on-background p-6 rounded-lg cursor-pointer transition-all hover:bg-surface-container-low">
+        <details className="group bg-surface border border-on-background p-6 rounded-lg cursor-pointer transition-all hover:bg-surface-container-low">
           <summary className="flex justify-between items-center font-geist-sans text-label-md list-none">
             <span className="">Do I have to purchase a domain or will it be included?</span>
             <ChevronDown className=" group-open:rotate-180 transition-transform"/>

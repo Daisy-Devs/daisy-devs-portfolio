@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -41,13 +42,21 @@ export default function RootLayout({
         "font-sans",
         bricolageGrotesque.variable,
       )}
+      suppressHydrationWarning
     >
       <body className="min z-h-full flex flex-col">
-        <header>
-          <Navbar />
-        </header>
-        {children}
-        <Footer/>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <header>
+            <Navbar />
+          </header>
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
