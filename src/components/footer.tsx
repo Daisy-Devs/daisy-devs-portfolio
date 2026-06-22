@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -8,24 +9,30 @@ const Footer = () => {
         🌼  Daisy Devs 🌼
         </div>
         <div className="flex gap-12 mb-12">
-          <a
+          <Link
             className="font-geist-sans text-sm text-on-tertiary-container/80 dark:text-tertiary-fixed/80 hover:text-primary transition-all underline underline-offset-4"
-            href="#"
+            href="https://www.fiverr.com/daisy_devs_org"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Twitter
-          </a>
-          <a
+            Fiverr
+          </Link>
+          <Link
             className="font-geist-sans text-sm text-on-tertiary-container/80 dark:text-tertiary-fixed/80 hover:text-primary transition-all underline underline-offset-4"
-            href="#"
+            href="https://github.com/Daisy-Devs/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
-          </a>
-          <a
+          </Link>
+          <Link
             className="font-geist-sans text-sm text-on-tertiary-container/80 dark:text-tertiary-fixed/80 hover:text-primary transition-all underline underline-offset-4"
-            href="#"
+            href="https://www.linkedin.com/in/daisy-devs/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             LinkedIn
-          </a>
+          </Link>
         </div>
         <p className="font-geist-sans text-xs text-on-tertiary-container/60">
           Built to bloom. © 2026 Daisy Devs
