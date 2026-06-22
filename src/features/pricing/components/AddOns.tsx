@@ -9,8 +9,8 @@ const AddOns: React.FC<AddOnsProps> = ({currency}) => {
   return (
     <section className="max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop mb-30">
       <div className="flex items-center gap-4 mb-12 justify-center">
-        <Blocks className="text-secondary text-4xl" />
-        <h2 className="font-bricolage-grotesque text-3xl">
+        <Blocks size={50} className="text-secondary" />
+        <h2 className="font-bricolage-grotesque text-3xl font-bold">
           Garden Enhancements (Add-ons)
         </h2>
       </div>

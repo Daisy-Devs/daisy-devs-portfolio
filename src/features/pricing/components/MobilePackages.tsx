@@ -28,6 +28,7 @@ const MobilePackages: React.FC<MobilePackagesProps> = ({currency}) => {
 </div>
 <ul className="space-y-4 mb-8">
 <li className="flex items-center gap-3"><CircleCheck className=" text-secondary align-middle text-lg"/> Online ordering &amp; Loyalty</li>
+<li className="flex items-center gap-3"><CircleCheck className=" text-secondary align-middle text-lg"/> 2 App Themes (Light & Dark)</li>
 <li className="flex items-center gap-3"><CircleCheck className=" text-secondary align-middle text-lg"/> Push notifications</li>
 <li className="flex items-center gap-3"><CircleCheck className=" text-secondary align-middle text-lg"/> Payment gateway</li>
 </ul>
@@ -35,7 +36,7 @@ const MobilePackages: React.FC<MobilePackagesProps> = ({currency}) => {
 </div>
 {/* <!-- Premium App --> */}
 <div className="bg-tertiary-container border-2 border-on-background rounded-[30px] p-10 hover-drop transition-all relative">
-<div className="absolute -top-3 -left-3 bg-secondary text-on-primary px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest">Premium</div>
+<div className="absolute -top-3 -left-3 bg-secondary text-on-primary px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Premium</div>
 <div className="flex justify-between items-start mb-6">
 <div>
 <h3 className="font-bricolage-grotesque font-bold text-3xl">Premium App</h3>
@@ -47,6 +48,7 @@ const MobilePackages: React.FC<MobilePackagesProps> = ({currency}) => {
 </div>
 </div>
 <ul className="space-y-4 mb-8">
+<li className="flex items-center gap-3 font-bold"><CircleCheck className="text-secondary text-lg"/> Everything in Standard</li>
 <li className="flex items-center gap-3 "><CircleCheck className="text-secondary text-lg"/> Admin + User Apps</li>
 <li className="flex items-center gap-3"><CircleCheck className="text-secondary text-lg"/> In-app chat support</li>
 <li className="flex items-center gap-3"><CircleCheck className="text-secondary text-lg"/> 1 Year Support Incl.</li>

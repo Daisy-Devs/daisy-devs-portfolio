@@ -1,7 +1,12 @@
-import React from "react";
-import pok from '../../../../public/images/PoK.png'
+"use client";
+import pok from "../../../../public/images/PoK.png";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { ArrowUpRight } from "lucide-react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 const ProjectItems = () => {
+  const router = useRouter();
   return (
     <section className="bg-primary-container py-20 px-margin-desktop mb-15">
       <div className="mx-auto relative">
@@ -28,11 +33,19 @@ const ProjectItems = () => {
                     2026
                   </span>
                 </div>
-                <h3 className="font-bricolage-grotesque text-3xl text-on-surface group-hover:text-secondary transition-colors">
-                  PoK
+                <h3 className="font-bricolage-grotesque text-4xl flex items-center text-on-surface group-hover:text-secondary transition-colors">
+                  PoK{" "}
+                  <Link href="https://pok-fe.up.railway.app/" target="_blank">
+                    <Button size={"sm"} className="ml-5 align-middle" variant={"secondary"}>
+                      <ArrowUpRight className="w-4 h-4" />
+                    </Button>
+                  </Link>
                 </h3>
                 <p className="font-nunito-sans text-on-surface-variant">
-                  PoK, a SaaS platform bridges the gap between radical accountability and personal privacy in the philanthropic sector. By leveraging blockchain technology, the platform creates an immutable, public ledger of fund movements
+                  PoK, a SaaS platform bridges the gap between radical
+                  accountability and personal privacy in the philanthropic
+                  sector. By leveraging blockchain technology, the platform
+                  creates an immutable, public ledger of fund movements
                 </p>
               </div>
             </div>

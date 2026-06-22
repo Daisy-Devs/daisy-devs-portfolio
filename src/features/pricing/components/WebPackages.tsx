@@ -63,6 +63,12 @@ const WebPackages: React.FC<WebPackagesProps> = ({ currency }) => {
             </li>
             <li className="flex items-center gap-2">
               <CircleCheck size={25} className="text-secondary shrink-0 mt-0.5" />
+              <span className="text-sm leading-tight">
+                2 App Themes (Light & Dark)
+              </span>
+            </li>
+            <li className="flex items-center gap-2">
+              <CircleCheck size={25} className="text-secondary shrink-0 mt-0.5" />
               <span className="text-sm leading-tight">Contact form</span>
             </li>
             <li className="flex items-center gap-2">
@@ -235,7 +241,7 @@ const WebPackages: React.FC<WebPackagesProps> = ({ currency }) => {
             </div>
           </div>
           <ul className="flex-grow space-y-3 mb-8">
-            <li className="flex items-center gap-2">
+            <li className="flex items-center gap-2 font-bold">
               <CircleCheck size={25} className="text-secondary shrink-0 mt-0.5" />
               <span className="text-sm leading-tight">Everything in Growth</span>
             </li>

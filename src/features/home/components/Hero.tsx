@@ -1,8 +1,12 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const Hero = () => {
+  const router = useRouter();
   return (
     <section
       aria-labelledby="hero"
@@ -42,14 +46,14 @@ const Hero = () => {
           flourish.
         </p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-          <Button>Start a Project</Button>
-          <a
+          <Button onClick={() => {router.push('/pricing')}}>Start a Project</Button>
+          <Link
             className="font-geist-sans text-sm font-semibold text-secondary hover:underline flex items-center gap-2"
-            href="#"
+            href="/projects"
           >
             View our garden
             <ArrowRight />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

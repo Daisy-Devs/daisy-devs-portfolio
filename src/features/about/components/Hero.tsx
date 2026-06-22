@@ -2,16 +2,16 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="pt-40 px-margin-mobile md:px-margin-desktop mx-auto mb-30 relative overflow-hidden">
-      <div className="absolute top-5 -right-10 opacity-90 animate-spin duration-175">
+      <div className="absolute top-5 -right-10 opacity-90 animate-spin animation-duration-[7s]">
         <img src={"./svg/flower.svg"} alt="Flower" />
       </div>
-      <div className="absolute top-30 right-30 opacity-90 animate-pulse duration-175">
+      <div className="absolute top-30 right-30 opacity-90 animate-pulse">
         <img src={"./svg/leaf.svg"} alt="Leaf" />
       </div>
-      <div className="absolute top-30 right-45 opacity-90 animate-pulse duration-175">
+      <div className="absolute top-30 right-45 opacity-90 animate-puls">
         <img src={"./svg/circle1.svg"} alt="Yellow circle" />
       </div>
-      <div className="absolute top-10 -right-5 opacity-90 animate-pulse duration-175">
+      <div className="absolute top-10 -right-5 opacity-90 animate-pulse">
         <img src={"./svg/circle2.svg"} alt="Green circle" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">

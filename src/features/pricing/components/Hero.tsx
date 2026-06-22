@@ -36,10 +36,10 @@ const Hero: React.FC<HeroProps> = ({ currency, setCurrency }) => {
           </button>
         </div>
       </div>
-      <h1 className="font-headline-xl text-headline-xl mb-6">
+      <h1 className="font-bricolage-grotesque font-bold text-5xl mb-6">
         Plans built to <span className="text-secondary italic">bloom</span>.
       </h1>
-      <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+      <p className="font-geist-sans text-xl text-on-surface-variant max-w-2xl mx-auto">
         From simple seedlings to enterprise forests, we have the perfect digital
         ecosystem for your growth.
       </p>

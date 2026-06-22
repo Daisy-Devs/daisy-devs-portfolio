@@ -10,7 +10,7 @@ const Home = () => {
         <Hero/>
         <Marquee/>
         <CultivatingExcellence/>
-        <Testimonials/>
+        {/* <Testimonials/> */} {/**TO UNCOMMENT AFTER RECEIVING ONE**/}
         <GetInTouch/>
     </main>
   )
