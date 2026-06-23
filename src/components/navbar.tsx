@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between gap-12">
         <a href="#" className="flex items-center gap-2 text-primary font-bold">
           <DaisyIcon />
-          <span className="hidden sm:inline font-bricolage-grotesque font-extrabold text-2xl">
+          <span className="inline font-bricolage-grotesque font-extrabold text-2xl">
             Daisy Devs
           </span>
         </a>
