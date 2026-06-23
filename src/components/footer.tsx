@@ -37,7 +37,7 @@ const Footer = () => {
             className="font-geist-sans text-sm text-on-tertiary-container/80 dark:text-tertiary-fixed/80 hover:text-primary transition-all underline underline-offset-4"
             href="/about"
           >
-            LinkedIn
+            About
           </Link>
         </div>
         <p className="font-geist-sans text-xs text-on-tertiary-container/60">

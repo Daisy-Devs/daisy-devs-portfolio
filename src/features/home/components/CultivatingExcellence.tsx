@@ -80,7 +80,7 @@ const CultivatingExcellence = () => {
             <h3 className="text-2xl font-bricolage-grotesque mb-4">
               Dedicated Support
             </h3>
-            <p className="font-nunito-sans  text-on-secondary-fixed-variant">
+            <p className="font-nunito-sans text-on-secondary-fixed-variant">
               We provide ongoing care for your digital garden, ensuring
               everything stays green and healthy.
             </p>
