@@ -34,7 +34,7 @@ export function ResponsiveDrawer({children,title,description,open,setOpen}: Resp
 
   return (
     <Drawer open={open} onOpenChange={setOpen}>
-      <DrawerContent>
+      <DrawerContent className="pb-9">
         <DrawerHeader className="text-left">
           <DrawerTitle>{title}</DrawerTitle>
           {description && <DrawerDescription>
