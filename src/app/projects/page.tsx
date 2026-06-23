@@ -1,10 +1,25 @@
-import Projects from '@/features/projects/screens/Projects'
-import React from 'react'
+"use client";
+import { useContact } from "@/components/contact-context";
+import ContactInfo from "@/components/contact-info";
+import { ResponsiveDrawer } from "@/components/responsive-drawer";
+import Projects from "@/features/projects/screens/Projects";
 
 const ProjectScreen = () => {
-  return (
-    <Projects/>
-  )
-}
+  const { contactShown, setContactShown } = useContact();
 
-export default ProjectScreen
+  return (
+    <>
+      <ResponsiveDrawer
+        open={contactShown}
+        setOpen={setContactShown}
+        title="Contact"
+        description="Need to get in touch?"
+      >
+        <ContactInfo />
+      </ResponsiveDrawer>
+      <Projects />
+    </>
+  );
+};
+
+export default ProjectScreen;

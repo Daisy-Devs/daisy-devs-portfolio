@@ -1,7 +1,9 @@
+import { useContact } from "@/components/contact-context";
 import { Button } from "@/components/ui/button";
-import React from "react";
 
 const GetInTouch = () => {
+  const { contactShown, setContactShown } = useContact();
+
   return (
     <section className="relative bg-secondary pt-32 pb-32 mt-30 overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-24 bg-surface petal-curve"></div>
@@ -13,7 +15,14 @@ const GetInTouch = () => {
           Let&apos;s build your next digital experience together. Whether
           you&apos;re a startup or an established brand, we help you grow.
         </p>
-        <Button size="md">Get in touch</Button>
+        <Button
+          size="md"
+          onClick={() => {
+            setContactShown(true);
+          }}
+        >
+          Get in touch
+        </Button>
       </div>
     </section>
   );

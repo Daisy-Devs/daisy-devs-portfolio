@@ -3,7 +3,7 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <section className="max-w-4xl mx-auto px-margin-mobile">
+    <section className="max-w-4xl mx-auto px-margin-mobile mb-24">
       <h2 className="font-bricolage-grotesque text-3xl font-bold text-center mb-12">
         Growing pains? We have answers.
       </h2>

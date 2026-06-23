@@ -1,10 +1,12 @@
-import type { Metadata } from "next";
 import { Geist, Bricolage_Grotesque, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Metadata } from "next";
+import { ContactProvider } from "@/components/contact-context";
+import { Toaster } from "sonner";
 
 const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -23,7 +25,7 @@ const nunitoSans = Nunito_Sans({
 
 export const metadata: Metadata = {
   title: "Daisy Devs🌼",
-  description: "A small team of developers",
+  description: "A team of 3 developers who build digital gardens.",
 };
 
 export default function RootLayout({
@@ -44,7 +46,8 @@ export default function RootLayout({
       )}
       suppressHydrationWarning
     >
-      <body className="min z-h-full flex flex-col">
+      <body className="min-h-full flex flex-col">
+        <ContactProvider>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -55,8 +58,10 @@ export default function RootLayout({
             <Navbar />
           </header>
           {children}
+          <Toaster position="top-center"/>
           <Footer />
         </ThemeProvider>
+        </ContactProvider>
       </body>
     </html>
   );

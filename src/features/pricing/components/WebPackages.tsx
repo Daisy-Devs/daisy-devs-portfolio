@@ -5,8 +5,10 @@ import React from "react";
 
 type WebPackagesProps = {
   currency: "INR" | "USD";
+  setSelectedPackage: React.Dispatch<React.SetStateAction<string>>;
+  setEnquiryFormShown: React.Dispatch<React.SetStateAction<boolean>>;
 };
-const WebPackages: React.FC<WebPackagesProps> = ({ currency }) => {
+const WebPackages: React.FC<WebPackagesProps> = ({ currency,setSelectedPackage,setEnquiryFormShown }) => {
   return (
     <section className="mx-auto px-margin-desktop mb-30 relative">
       <div className="flex items-center gap-4 mb-12">
@@ -86,7 +88,7 @@ const WebPackages: React.FC<WebPackagesProps> = ({ currency }) => {
               <span className="text-sm leading-tight">Website deployment</span>
             </li>
           </ul>
-          <Button variant={"tertiary"} size={"md"}>
+          <Button onClick={() =>{ setEnquiryFormShown(true); setSelectedPackage("Starter")}} variant={"tertiary"} size={"md"}>
             Start Small
           </Button>
         </div>
@@ -137,7 +139,7 @@ const WebPackages: React.FC<WebPackagesProps> = ({ currency }) => {
               <span className="text-sm">Instagram feed embed</span>
             </li>
           </ul>
-          <Button variant={"tertiary"} size={"md"}>
+          <Button onClick={() =>{ setEnquiryFormShown(true); setSelectedPackage("Business")}} variant={"tertiary"} size={"md"}>
             Go Pro
           </Button>
         </div>
@@ -216,7 +218,7 @@ const WebPackages: React.FC<WebPackagesProps> = ({ currency }) => {
               </span>
             </li>
           </ul>
-          <Button variant={"secondary"} size={"md"}>
+          <Button onClick={() =>{ setEnquiryFormShown(true); setSelectedPackage("Growth")}} variant={"secondary"} size={"md"}>
             Blossom Now
           </Button>
         </div>
@@ -282,7 +284,7 @@ const WebPackages: React.FC<WebPackagesProps> = ({ currency }) => {
               </span>
             </li>
           </ul>
-          <Button variant={"tertiary"} size={"md"}>
+          <Button onClick={() =>{ setEnquiryFormShown(true); setSelectedPackage("Enterprise")}} variant={"tertiary"} size={"md"}>
             Build Forest
           </Button>
         </div>
