@@ -17,7 +17,6 @@ const Navbar = () => {
   const path = usePathname();
   const { setTheme, theme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  console.log("theme", theme);
   useEffect(() => setMounted(true), [])
 
   if (!mounted) return null // render nothing on server
@@ -26,7 +25,7 @@ const Navbar = () => {
   return (
     <nav
       aria-label="Main navigation"
-      className="fixed shadow-drop-border top-4 left-1/2 z-50 w-[90%] max-w-5xl -translate-x-1/2 rounded-full border border-on-surface bg-surface/90 px-6 py-2 backdrop-blur-lg drop-border"
+      className="fixed shadow-drop-border top-4 left-1/2 z-50 w-[95%] md:w-[90%] max-w-5xl -translate-x-1/2 rounded-full border border-on-surface bg-surface/90 px-6 py-2 backdrop-blur-lg drop-border"
     >
       <div className="flex items-center justify-between gap-12">
         <a href="#" className="flex items-center gap-2 text-primary font-bold">
