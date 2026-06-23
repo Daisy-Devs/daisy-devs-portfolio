@@ -24,7 +24,7 @@ const MobilePackages: React.FC<MobilePackagesProps> = ({
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
         {/* <!-- Standard App --> */}
         <div className="bg-surface-container border-2 border-on-background rounded-[30px] p-10 hover-drop transition-all">
-          <div className="flex justify-between items-start mb-6">
+          <div className="flex flex-col sm:flex-row justify-between items-start mb-6">
             <div>
               <h3 className="font-bricolage-grotesque font-bold text-3xl">
                 Standard App
@@ -34,7 +34,6 @@ const MobilePackages: React.FC<MobilePackagesProps> = ({
             <div className="text-right">
               <div
                 className="font-bricolage-grotesque text-xl text-primary font-bold"
-                data-price-inr="25000"
               >
                 {" "}
                 {PRICING[currency].standard}
@@ -77,7 +76,7 @@ const MobilePackages: React.FC<MobilePackagesProps> = ({
           <div className="absolute -top-3 -left-3 bg-secondary text-on-primary px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
             Premium
           </div>
-          <div className="flex justify-between items-start mb-6">
+          <div className="flex flex-col sm:flex-row justify-between items-start mb-6">
             <div>
               <h3 className="font-bricolage-grotesque font-bold text-3xl">
                 Premium App
@@ -89,7 +88,6 @@ const MobilePackages: React.FC<MobilePackagesProps> = ({
             <div className="text-right">
               <div
                 className="font-bricolage-grotesque text-secondary text-xl font-bold"
-                data-price-inr="50000"
               >
                 {" "}
                 {PRICING[currency].premium}
