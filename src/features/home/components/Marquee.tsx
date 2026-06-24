@@ -15,13 +15,16 @@ const Marquee = () => {
             UI/UX <span className="text-secondary-fixed">✿</span>
           </span>
           <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
-            WebGL <span className="text-secondary-fixed">✿</span>
+            Crypto Apps <span className="text-secondary-fixed">✿</span>
+          </span>
+          <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
+            Next.js <span className="text-secondary-fixed">✿</span>
           </span>
           <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
             Startups <span className="text-secondary-fixed">✿</span>
           </span>
           <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
-            Eco-brands <span className="text-secondary-fixed">✿</span>
+            Businesses <span className="text-secondary-fixed">✿</span>
           </span>
           <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
             Creative Studios <span className="text-secondary-fixed">✿</span>
@@ -38,16 +41,19 @@ const Marquee = () => {
             UI/UX <span className="text-secondary-fixed">✿</span>
           </span>
           <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
-            React Native <span className="text-secondary-fixed">✿</span>
+            Crypto Apps <span className="text-secondary-fixed">✿</span>
+          </span>
+          <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
+            Next.js <span className="text-secondary-fixed">✿</span>
           </span>
           <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
             Startups <span className="text-secondary-fixed">✿</span>
           </span>
           <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
-            Eco-brands <span className="text-secondary-fixed">✿</span>
+            Businesses <span className="text-secondary-fixed">✿</span>
           </span>
           <span className="text-primary-fixed text-2xl font-bricolage-grotesque flex items-center gap-4">
-            Businesses <span className="text-secondary-fixed">✿</span>
+            Creative Studios <span className="text-secondary-fixed">✿</span>
           </span>
         </div>
       </div>

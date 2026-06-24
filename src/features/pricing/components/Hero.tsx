@@ -7,7 +7,7 @@ type HeroProps = {
 const Hero: React.FC<HeroProps> = ({ currency, setCurrency }) => {
   return (
     <section className="mx-auto px-margin-desktop text-center my-25 relative">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary-container opacity-30 blur-[120px] -z-10"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[600px] rounded-full bg-primary-container opacity-30 blur-[120px] -z-10"></div>
       <div className="inline-block px-4 py-1 bg-tertiary-container text-on-tertiary-container rounded-full font-geist-sans text-label-md mb-6">
         Transparent Budgets
       </div>

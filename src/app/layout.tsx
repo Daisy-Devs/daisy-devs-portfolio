@@ -24,7 +24,7 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Daisy Devs🌼",
+  title: "Daisy Devs",
   description: "A team of 3 developers who build digital gardens.",
 };
 

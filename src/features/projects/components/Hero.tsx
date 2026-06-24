@@ -15,13 +15,13 @@ const Hero = () => {
             creative code.
           </p>
           <div className="flex gap-4">
-            <span className="bg-primary-container text-on-primary-container px-4 py-1 rounded-lg font-geist-sans text-xs border border-outline-variant">
+            <span className="bg-primary-container text-on-primary-container px-4 py-1 rounded-lg font-geist-sans font-extrabold text-sm border border-outline-variant">
               Web Apps
             </span>
-            <span className="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-lg font-geist-sans text-xs border border-outline-variant">
+            <span className="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-lg font-geist-sans font-extrabold text-sm border border-outline-variant">
               E-commerce
             </span>
-            <span className="bg-tertiary-container text-on-tertiary-container px-4 py-1 rounded-lg font-geist-sans text-xs border border-outline-variant">
+            <span className="bg-tertiary-container text-on-tertiary-container px-4 py-1 rounded-lg font-geist-sans font-extrabold text-sm border border-outline-variant">
               Mobile Apps
             </span>
           </div>
