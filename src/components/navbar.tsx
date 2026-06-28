@@ -17,10 +17,9 @@ const Navbar = () => {
   const path = usePathname();
   const { setTheme, theme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), [])
+  useEffect(() => setMounted(true), []);
 
-  if (!mounted) return null // render nothing on server
-
+  if (!mounted) return null; // render nothing on server
 
   return (
     <nav
@@ -48,17 +47,17 @@ const Navbar = () => {
           </a>
 
           <a
-            href="/about"
-            className={path == "/about" ? activeNavLink : navLink}
-          >
-            About
-          </a>
-
-          <a
             href="/pricing"
             className={path == "/pricing" ? activeNavLink : navLink}
           >
             Pricing
+          </a>
+
+          <a
+            href="/about"
+            className={path == "/about" ? activeNavLink : navLink}
+          >
+            About
           </a>
         </div>
 
@@ -66,7 +65,7 @@ const Navbar = () => {
           size="sm"
           variant="secondary"
           onClick={() => {
-            setTheme(theme === 'dark' ? 'light' : 'dark')
+            setTheme(theme === "dark" ? "light" : "dark");
           }}
         >
           {theme === "light" ? (
